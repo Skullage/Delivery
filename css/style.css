@@ -723,10 +723,9 @@ body {
 }
 
 .no-webp .order {
-  background: url("../img/order/BG.png") no-repeat right; }
+  background: url("../img/order/BG.png") 0 0/100% 100% no-repeat; }
 
 .order {
-  background-size: cover;
   padding: 100px 0 140px;
 }
 
@@ -783,10 +782,9 @@ body {
 }
 
 .no-webp .about {
-  background: url("../img/about/BG.png") no-repeat; }
+  background: url("../img/about/BG.png") 0 0/100% 100% no-repeat; }
 
 .about {
-  background-size: cover;
   padding: 140px 0;
 }
 
@@ -877,10 +875,9 @@ body {
 }
 
 .no-webp .browse {
-  background: url("../img/browse/BG.png") no-repeat; }
+  background: url("../img/browse/BG.png") 0 0/100% 100% no-repeat; }
 
 .browse {
-  background-size: cover;
   padding: 140px 0 161px;
 }
 
@@ -1001,10 +998,9 @@ body {
 }
 
 .no-webp .phone {
-  background: url("../img/phone/BG.png") no-repeat; }
+  background: url("../img/phone/BG.png") 0 0/100% 100% no-repeat; }
 
 .phone {
-  background-size: cover;
   padding: 120px 0;
 }
 
@@ -1327,17 +1323,17 @@ body {
 
 .webp .btn::before { background: url(../img/btn/ButtonWave.webp) no-repeat; }
 
-.webp .order { background: url(../img/order/BG.webp) no-repeat right; }
+.webp .order { background: url(../img/order/BG.webp) 0 0/100% 100% no-repeat; }
 
-.webp .about { background: url(../img/about/BG.webp) no-repeat; }
+.webp .about { background: url(../img/about/BG.webp) 0 0/100% 100% no-repeat; }
 
 .webp .about__content { background: url(../img/about/col1_bg.webp) center no-repeat; }
 
-.webp .browse { background: url(../img/browse/BG.webp) no-repeat; }
+.webp .browse { background: url(../img/browse/BG.webp) 0 0/100% 100% no-repeat; }
 
 .webp .checkout__image:before { background: url(../img/checkout/ColBG.webp) 0 0/100% no-repeat; }
 
-.webp .phone { background: url(../img/phone/BG.webp) no-repeat; }
+.webp .phone { background: url(../img/phone/BG.webp) 0 0/100% 100% no-repeat; }
 
 .webp .phone__content { background: url(../img/phone/ColBG.webp) center no-repeat; }
 
