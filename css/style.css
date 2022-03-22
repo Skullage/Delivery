@@ -278,11 +278,7 @@ h6 {
 }
 
 .no-webp .footer {
-  background: url("../img/footer/BG.png") no-repeat center; }
-
-.footer {
-  background-size: cover;
-}
+  background: url("../img/footer/BG.png") center/100% no-repeat; }
 
 .footer-above {
   padding: 100px 0;
@@ -1067,10 +1063,9 @@ body {
 }
 
 .no-webp .support__content {
-  background: url(../img/support/col2bg.png) no-repeat center; }
+  background: url(../img/support/col2bg.png) center/100% no-repeat; }
 
 .support__content {
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1319,7 +1314,7 @@ body {
   }
 }
 
-.webp .footer { background: url(../img/footer/BG.webp) no-repeat center; }
+.webp .footer { background: url(../img/footer/BG.webp) center/100% no-repeat; }
 
 .webp .btn::before { background: url(../img/btn/ButtonWave.webp) no-repeat; }
 
@@ -1337,4 +1332,4 @@ body {
 
 .webp .phone__content { background: url(../img/phone/ColBG.webp) center no-repeat; }
 
-.webp .support__content { background: url(../img/support/col2bg.webp) no-repeat center; }
+.webp .support__content { background: url(../img/support/col2bg.webp) center/100% no-repeat; }
