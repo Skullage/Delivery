@@ -278,7 +278,7 @@ h6 {
 }
 
 .no-webp .footer {
-  background: url("../img/footer/BG.png") center/100% no-repeat; }
+  background: url("../img/footer/BG.png") center/100% 100% no-repeat; }
 
 .footer-above {
   padding: 100px 0;
@@ -1032,7 +1032,7 @@ body {
           flex: 0 1 40.53%;
   text-align: center;
   margin: 0 auto;
-  min-width: 300px;
+  min-width: 250px;
 }
 
 .phone__image img {
@@ -1185,6 +1185,10 @@ body {
     padding: 30px 0;
   }
 
+  .faq__cards {
+    gap: 50px;
+  }
+
   .browse {
     padding: 30px 0;
   }
@@ -1203,6 +1207,11 @@ body {
 
   .phone__content {
     text-align: center;
+    background: transparent;
+  }
+
+  .phone__image {
+    padding-right: 3.6%;
   }
 
   .support__block-text {
@@ -1296,6 +1305,7 @@ body {
 
   .about__content {
     text-align: center;
+    background: transparent;
   }
 
   .browse__btns {
@@ -1314,7 +1324,7 @@ body {
   }
 }
 
-.webp .footer { background: url(../img/footer/BG.webp) center/100% no-repeat; }
+.webp .footer { background: url(../img/footer/BG.webp) center/100% 100% no-repeat; }
 
 .webp .btn::before { background: url(../img/btn/ButtonWave.webp) no-repeat; }
 
